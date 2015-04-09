@@ -19,7 +19,7 @@
 			</div>
 			<% end %>
 		</div>
-		<div class="col-xs-4 hidden-xs slogan">
+		<div class="col-xs-4 hidden-xs slogan text-center">
 			Splurting out happiness quotes to brighten you day.
 		</div>
 		<div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
@@ -43,7 +43,7 @@
         
           <%= simple_form_for Quote.new do |f| %>
           	<div class="modal-body">
-            	<%= f.input :saying, :label => "What is the saying you want to add?", :placeholder => "Happiness is a warm Gun." %>
+            	<%= f.input :saying, :label => "What is the saying you want to add?", :placeholder => "Happiness is a warm gun." %>
             	<br />
             	<%= f.input :author, :label => "Who is the author of the quote?", :placeholder => 'John Lennon' %>
         		</div>    
