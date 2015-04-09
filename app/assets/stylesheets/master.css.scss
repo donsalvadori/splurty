@@ -24,6 +24,11 @@ transform:rotate(11deg);
 -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */ 
 }
 
+.circle:hover {
+  background-color: rgb(90,244,96);
+  box-shadow: 10px 10px 5px #888888;
+}
+
 .slogan {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
@@ -32,14 +37,21 @@ transform:rotate(11deg);
 
 .links {
 	padding-top: 26px;
+  text-align: right;
+}
+
+.links:hover {
+  color: #dfdfdf;
 }
 
 .links a {
 	color:black;
 	font-size: 25px;
-	border-bottom: 1px solid #dfdfdf;
+  display:inline;    
+  float: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bold;
+  padding-right: 30px;
 }
 
 
